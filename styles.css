@@ -1,0 +1,159 @@
+/*general*/
+.colors {
+    height: 100px;
+    display: flex;
+  }
+  #black {
+    background-color: black;
+    width: 2%;
+    height: 100%;
+  }
+  #white {
+    background-color: white;
+    width: 2%;
+    height: 100%;
+  }
+  #red {
+    background-color: red;
+    width: 2%;
+    height: 100%;
+  }
+  h1 {
+    font-family: georgia;
+    font-size: 40px;
+  }
+  h2 {
+    font-family: georgia;
+    text-align: center;
+  }
+  p {
+    font-family: garamond;
+    font-size: 18px;
+  }
+  #title p {
+    font-family: garamond;
+  }
+  #img-caption {
+    font-family: garamond;
+  }
+  ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: garamond;
+  }
+  #title {
+    text-align: center;
+  }
+  /*main image*/
+  #img-caption {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: auto;
+  }
+  /*content*/
+  #tribute-info {
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3), 0 10px 20px rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  #tribute-info h2 {
+    text-align: center;
+  }
+  #tribute-info img {
+    border-radius: 12px;
+    margin-left: 150px;
+  }
+  
+  /*Retired Numbers*/
+  .retiredNumbers {
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3), 0 10px 20px rgba(0,0,0,0.6);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .retired {
+    display: flex;
+    justify-content: space-between;
+  }
+  .retired img {
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+    display: block;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1.5s ease;
+    opacity: 0.4;
+    border-radius: 12px;
+  }
+  .text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .sinkwich {
+    position: relative;
+    width: 300px;
+  }
+  .sinkwich:hover .overlay {
+    width: 100%;
+  }
+  .walker {
+    position: relative;
+    width: 300px;
+  }
+  .walker:hover .overlay {
+    width: 100%;
+  }
+  .sapp {
+    position: relative;
+    width: 300px;
+  }
+  .sapp:hover .overlay {
+    width: 100%;
+  }
+  .trippi {
+    position: relative;
+    width: 300px;
+  }
+  .trippi:hover .overlay {
+    width: 100%;
+  }
+  /*Rivalries*/
+  #rivalries {
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3), 0 10px 20px rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  #rivalries ul {
+    text-align: center;
+  }
+  footer {
+    font-size: 18px;
+    padding: 40px;
+    text-align: center;
+  }
